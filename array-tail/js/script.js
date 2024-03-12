@@ -8,4 +8,7 @@ let num = parseInt(prompt('quanti elementi vuoi inserire?'));
 for(i = 0; i < num; i++){
     arr.push(random(1,100));
 }
-console.log(arr);
+//console.log(arr);
+if(num >= 5){
+    console.log(arr[i]);
+}
